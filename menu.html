@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Taste Point</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Taste <span>Point</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html" class="active">Menu</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="menu-showcase">
+        <div class="container showcase-grid">
+            <div class="showcase-panel">
+                <div class="showcase-label">Featured selector</div>
+                <h2>Premium rotating food showcase</h2>
+                <p>Click any item in the ring to discover details, then add it to your cart with a single tap. The selected dish glows and zooms forward in the interface.</p>
+
+                <div class="showcase-card glass-card">
+                    <div class="food-preview">
+                        <img id="showcasePreviewImage" src="images/food-burger.jpg" alt="Selected food">
+                    </div>
+                    <div class="food-info">
+                        <span class="food-category" id="showcaseCategory">Burgers</span>
+                        <h3 id="showcaseName">Classic Cheese Burger</h3>
+                        <p id="showcaseDescription">Juicy beef patty with melted cheddar, fresh lettuce, tomato, pickles on a brioche bun.</p>
+                        <div class="food-meta">
+                            <span class="price" id="showcasePrice">$8.99</span>
+                            <button class="btn btn-primary" id="showcaseAddButton">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="showcase-ring" id="showcaseRing" aria-label="Rotating food selector"></div>
+        </div>
+    </section>
+
+    <section class="menu-page">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Delicious Menu</h2>
+                <p>From sizzling appetizers to mouthwatering desserts, explore our wide range of culinary delights crafted just for you.</p>
+            </div>
+
+            <div class="menu-categories" id="menuCategories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="appetizers">Appetizers</button>
+                <button class="category-btn" data-category="burgers">Burgers</button>
+                <button class="category-btn" data-category="pizza">Pizza</button>
+                <button class="category-btn" data-category="pasta">Pasta</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+                <button class="category-btn" data-category="beverages">Beverages</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Rendered by JS -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Taste Point</h3>
+                    <p>Bringing the finest culinary experiences to your doorstep. Quality food, fast delivery, unforgettable taste.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="cart.html">My Cart</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, Foodie City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@tastepoint.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+                    <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Taste Point. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

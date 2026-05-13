@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taste Point - Delicious Food Delivered</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Taste <span>Point</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Where Every Bite Tells a Story</h1>
+                <p>Experience the finest flavors crafted with passion and delivered fresh to your doorstep. From gourmet burgers to artisan pizzas, we bring the restaurant to you.</p>
+                <div class="hero-buttons">
+                    <a href="menu.html" class="btn btn-primary">Order Now</a>
+                    <a href="menu.html" class="btn btn-outline">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Specialties</h2>
+                <p>Handpicked favorites that our customers absolutely love. Fresh ingredients, bold flavors, and made with love.</p>
+            </div>
+            <div class="menu-grid" id="featuredMenu">
+                <!-- Rendered by JS -->
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/hero-bg.jpg" alt="Taste Point Kitchen">
+                </div>
+                <div class="about-text">
+                    <h2>A Legacy of Flavor Since 2010</h2>
+                    <p>At Taste Point, we believe that great food brings people together. What started as a small family kitchen has grown into a beloved culinary destination, serving thousands of happy customers every day.</p>
+                    <p>Our chefs use only the freshest locally-sourced ingredients to create dishes that are as nutritious as they are delicious. Every recipe is a labor of love, perfected over years of passion and dedication.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Fresh, locally-sourced ingredients</li>
+                        <li><i class="fas fa-check-circle"></i> Expert chefs with 15+ years experience</li>
+                        <li><i class="fas fa-check-circle"></i> Fast & reliable delivery</li>
+                        <li><i class="fas fa-check-circle"></i> 100% satisfaction guaranteed</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Don't just take our word for it. Here's what our food lovers have to say about their Taste Point experience.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The best burger I've ever had delivered! The packaging was great, the food was hot, and the flavors were incredible. Taste Point is now my go-to for weekend treats."</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=11" alt="Customer">
+                        <div>
+                            <h4>James Wilson</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"I'm obsessed with their Truffle Pasta. It tastes like something from a five-star restaurant but at a fraction of the price. Delivery is always on time too!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=5" alt="Customer">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Ordered for a family dinner and everyone was impressed. The portions are generous, the presentation is beautiful, and the taste is unmatched. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://i.pravatar.cc/150?img=3" alt="Customer">
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Taste Point</h3>
+                    <p>Bringing the finest culinary experiences to your doorstep. Quality food, fast delivery, unforgettable taste.</p>
+                    <div style="margin-top: 20px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="cart.html">My Cart</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, Foodie City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@tastepoint.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+                    <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+                    <p>Holidays: 11:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Taste Point. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

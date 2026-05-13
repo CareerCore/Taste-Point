@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmed - Taste Point</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">Taste <span>Point</span></a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="confirmation-page">
+        <div class="confirmation-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <h1>Order Placed Successfully!</h1>
+        <p>Thank you for choosing Taste Point. Your delicious meal is being prepared and will be delivered to you shortly.</p>
+        
+        <div class="order-details" id="confirmationDetails">
+            <!-- Rendered by JS -->
+        </div>
+
+        <a href="index.html" class="btn btn-primary" style="margin-top: 20px;">Back to Home</a>
+        <a href="menu.html" class="btn btn-secondary" style="margin-top: 20px;">Order More Food</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Taste Point</h3>
+                    <p>Bringing the finest culinary experiences to your doorstep. Quality food, fast delivery, unforgettable taste.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="menu.html">Our Menu</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="cart.html">My Cart</a>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Flavor Street, Foodie City</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> hello@tastepoint.com</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Opening Hours</h3>
+                    <p>Mon - Fri: 10:00 AM - 10:00 PM</p>
+                    <p>Sat - Sun: 9:00 AM - 11:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Taste Point. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
